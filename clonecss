@@ -1,0 +1,637 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:box-order;
+    
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue","sans-serif";
+}
+body{
+    display:block;
+}
+
+#heading{
+    top: 0;
+    position: sticky;
+    background-image: linear-gradient(to right, rgb(9, 86, 191), rgb(4, 64, 143), rgb(2, 54, 120), rgb(4, 64, 143), rgb(9, 86, 191));
+    text-align: center;
+    padding: 0.7rem 1rem;
+    z-index: 50;
+    text-decoration: none;
+    color:white;
+    
+    
+    
+    
+}
+#avbar{
+    margin: 1rem 0 0 0;
+    display: flex;
+    color: white;
+}
+#logged{
+    display: flex;
+}
+
+#bar1{
+    padding: 0.5rem 1.5rem;
+    transform: scale(1, 1.1);
+    font-size: 1.02rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(223, 217, 217); 
+}
+#heading:hover{
+    background:rgb(4, 64, 143)
+}
+@media only screen and(max-width:450px)
+{
+    #heading a{
+        font-size: 0.8rem;
+    }
+}
+#header1{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.04rem;
+
+}
+.border-box{
+    
+
+    
+    text-align:right;
+    
+}
+#sideb{
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    border-radius: 0.5rem;
+   
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    
+    padding: 0.625rem 0.875rem;
+    font-size: 0.875rem;
+    line-height: 143%;
+}
+#btnsct{
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 335px){
+#btnsctn{
+    flex-direction: column;
+} 
+}
+#started{
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    background-color: rgb(12, 108, 242);
+    color: rgb(255, 255, 255);
+    margin: 0rem 2rem;
+}
+
+.lg buttons{
+    background-color: white;
+    color: rgb(47, 57, 150);
+   
+}
+
+@media only screen and (max-width: 335px)
+{
+#btnsctn .buttons {
+    margin: 0.5rem;
+}
+}
+.buttons{
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0.75rem 1.375rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 144%;
+    border-radius: 0.5rem;
+    border: 0.125rem solid transparent;
+    cursor: pointer;
+    white-space: nowrap;
+}
+    
+
+#sign{
+    
+    width:5.6rem;
+    height:2.4rem;
+    font-size:14px;
+    border-radius:10px;
+    background-color: white;
+    color:black;
+
+}
+#log{
+    background-color: transparent;
+    margin: 0 1rem;
+    color: white;
+}
+#log:hover{
+    cursor: pointer;
+    background-color: rgb(25, 25, 103);
+}
+#sign:hover{
+    cursor: pointer;
+    background-color:grey;
+}
+#box{
+    height: 40rem;
+    padding: 8rem 8rem;
+    width: 83.1%;
+    display: block;
+    
+    
+     background-image: url("https://www.blockchain.com/static/img/home/home-hero-gradient.svg");
+     background-size: cover;
+}
+#hat{
+    color: white;
+    font-size: 3rem;
+    font-weight: 650;
+    line-height: 3.625rem;
+    max-width: 50rem;
+    padding-top: 8rem;
+    padding-left: 2rem;
+}
+@media only screen and (max-width: 335px)
+{
+#hat {
+    margin: 0px 1.2rem;
+    padding: 0px;
+}
+}
+
+
+#lines{
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.25);
+}
+
+#headf{
+   
+    display: flex;
+    width: 100%;
+    background-color: rgb(5, 5, 78);
+    
+}
+#sideb{
+    display: inline-flex;
+    position: absolute;
+    right: 3rem;
+}
+#logged{
+    display: flex;
+}
+#logged a{
+    text-decoration: none;
+    padding-right: 1rem;
+
+
+}
+
+h2{
+    margin: 1rem 0 0 0;
+    color: white;
+}
+#sideb button{
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    border-radius: 0.5rem;
+    border: 0.125rem solid white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    color: rgb(18, 29, 51);
+    background: rgb(255, 255, 255);
+    padding: 0.625rem 0.875rem;
+    font-size: 0.875rem;
+    line-height: 143%;
+}
+#pat{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 2rem;
+    max-width: 50rem;
+}
+div{
+    display: block;
+}
+
+
+
+
+
+.started{
+    width:9.4rem;
+    height:2.7rem;
+    background-color: white;
+    font-size:17px;
+    border-radius:10px;
+    background-color: rgb(6, 78, 188);
+    border-color: rgb(6, 78, 188);
+    
+    color:white;
+
+
+}
+
+#middle{
+    background-color: rgb(238, 231, 253);
+    color: rgb(96, 50, 221);
+    
+       
+    
+    background-size: 35rem;
+    background-position: right top 2.5rem;
+    background-repeat: no-repeat;
+    
+     background-image: url("images/purple1.png");
+
+
+
+}
+.boxes{
+    display: flex;
+    margin: 10rem 2rem -5rem 2rem;
+    border-radius: 2rem;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+#purple{
+    padding: 3rem 2rem 2rem 7rem;
+}
+.purple_head{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3.25rem;
+    margin: 0.5rem 0px 1.75rem 0px;
+    max-width: 30rem;
+
+}
+#color1{
+    align-self: flex-start;
+    border-radius: 1rem;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    max-width: 25rem;
+}
+.p_col{
+    border: 1px solid rgb(187, 168, 243);
+    color: rgb(115, 73, 242);
+}
+.box1{
+    align-self: flex-start;
+    border-radius: 1rem;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    max-width: 25rem;
+  
+}
+#started{
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 1.2rem 1.5rem;
+    font-size: 1.1rem;
+    line-height: 0.25rem;
+    margin-top: 5.75rem;
+    margin-left: 0.4rem;
+    
+}
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    
+    text-rendering: auto;
+    
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+div{
+    display: block;
+}
+element.style {
+    background-color: rgb(107, 63, 238);
+}
+
+    #middle1{
+        background-color: rgb(236, 243, 253);
+    color: rgb(12, 108, 242);
+    background-image: url("images/blue.png");
+    overflow: hidden;
+    background-size: 35rem;
+    background-position: right top 2.5rem;
+    background-repeat: no-repeat;
+    }
+        
+    .img1{
+        padding: 10rem 0px 4rem 0px;
+        float:right;
+        
+       
+
+    }
+    .b_col{
+        border: 1px solid rgb(12, 108, 242);
+    }
+    .img2{
+        padding: 10rem 0px 4rem 0px;
+        float:right;
+    }
+    .box_head{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3.25rem;
+    margin: 0.5rem 0px 1.75rem 0px;
+    max-width: 30rem;
+    }
+    #blue{
+        padding: 3rem 2rem 2rem 7rem;
+    }
+    #middle3{
+    background-color: rgba(170, 169, 169, 0.3);
+    background-image: url("images/grey_1.png");
+    overflow: hidden;
+    background-size: 35rem;
+    background-position: right top 2.5rem;
+    background-repeat: no-repeat;
+}
+.g_col{
+    font-size: 1rem;
+    margin: 1rem 0px;
+}
+    
+         
+   /* .img3{
+     float:right;
+     width:145%;
+     height:125px;
+
+    }*/
+    
+
+  
+  #end{
+    position:relative;
+    padding:5rem 5rem;
+    margin:6rem 0px;
+    display:flex;
+    background-color:rgb(1,1,34);
+    background-image:url("https://blockchain-clone-id9d6mbcl-ankitajain06.vercel.app/images/banner-bg.svg");
+    align-items:evenly;
+    justify-content:space-evenly;
+
+    color:white;
+
+  }
+  @media only screen and (max-width: 670px){
+  #end{
+    flex-direction:column;
+    align-items:flex-start;
+    padding:3rem 4rem;
+
+  }
+  #end_part{
+    font-size:1.5rem;
+    font-weight: 600;
+    margin:0.5rem;
+
+  }
+}
+#end_part{
+    font-size:2.5rem;
+    font-weight:700;
+    
+}
+.Get4{
+    background-color: white;
+    color:rgb(47,57,150);
+    font-weight: 500;
+    justify-content: center;
+    border-radius: 0.5rem;
+    cursor:pointer;
+    
+    width:155px;
+    height:40px;
+
+}
+#label{
+    
+    margin:1rem 0.5rem 1rem 2rem;
+    width:2rem;
+}
+#logo{
+    display:flex;
+}
+#wallet{
+    align-self: flex-start;
+    background-color: rgb(214, 207, 243, 50%);
+    border-radius: 1.25rem;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+#exchange{
+    align-self: flex-start;
+    background-color: rgba(211, 227, 243, 0.5);
+    border-radius: 1.25rem;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+}
+#institute{
+    align-self: flex-start;
+    background-color: rgb(182, 179, 179);
+    border-radius: 1.25rem;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: rgb(97, 96, 96);
+
+}
+.middle4{
+    box-sizing:border-box;
+      
+        margin:65px 60px;
+        background-color:rgb(255, 153, 0);
+        
+        border-radius:40px;
+         font-size: 23px;
+         color:black;
+         padding: 3rem 2rem 2rem 7rem;
+
+}
+#explore{
+    align-self: flex-start;
+    background-color: rgba(250, 140, 5, 0.5);
+    border-radius: 1.25rem;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+
+}
+#footer {
+    display: flex;
+    padding: 2rem 5rem;
+}
+
+#footer1 div {
+    margin-bottom: 0.75rem;
+    /* padding: 9rem; */
+}
+
+#footer h1 {
+    margin: 0.5rem 2rem 1.5rem 0px;
+    padding-right: 12rem;
+}
+
+#footer2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer2 div {
+    margin: 0px 2.5rem;
+}
+
+#footer2 li {
+    list-style-type: none;
+    margin: 1rem;
+}
+
+#box2 img {
+    max-width: fit-content;
+}
+
+@media only screen and (max-width: 1050px) {
+   #navbar #div1,#dotsquare{
+      display: none;
+    }
+}
+@media only screen and (max-width: 670px) {
+
+    #footer h1{
+      padding-right: 0px;
+    }
+    #banner_head {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.5rem;
+   
+}
+#banner{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3rem 4rem;
+}
+#heading_content{
+    font-size: 2.5rem;
+    font-weight: 620;
+    line-height: 3rem;
+}
+}
+@media only screen and (max-width: 540px) {
+    #navbar{
+        display: none;
+    }
+}
+@media only screen and (max-width: 450px){
+    #footer{
+    padding: 2rem 0.7rem;
+}
+#footer2 li {
+    margin: 0.5rem;
+}
+#footer2 div {
+    margin: 0px 0.5rem;
+}
+#head1 a{
+    font-size: 0.8rem;
+}
+}
+@media only screen and (max-width: 335px)
+{
+  #footer{
+      flex-direction: column;
+      padding:2rem 0.1rem;
+  }
+  #heading_content{
+      margin:0px 1.2rem;
+      padding:0px;
+
+  }
+  #button_section{
+      flex-direction: column;
+  }
+  #button_section .buttons{
+    margin:0.5rem;
+  }
+}
