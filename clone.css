@@ -90,7 +90,7 @@ body{
     flex-direction: column;
 } 
 }
-#started{
+#starts{
     transition: all 0.3s ease 0s;
     white-space: nowrap;
     background-color: rgb(12, 108, 242);
@@ -243,19 +243,7 @@ div{
 
 
 
-.started{
-    width:9.4rem;
-    height:2.7rem;
-    background-color: white;
-    font-size:17px;
-    border-radius:10px;
-    background-color: rgb(6, 78, 188);
-    border-color: rgb(6, 78, 188);
-    
-    color:white;
 
-
-}
 
 #middle{
     background-color: rgb(238, 231, 253);
@@ -327,14 +315,16 @@ div{
     font-weight: 500;
     padding: 1.2rem 1.5rem;
     font-size: 1.1rem;
-    line-height: 0.25rem;
-    margin-top: 5.75rem;
+    line-height: 1.25rem;
+    margin-top: 0.75rem;
     margin-left: 0.4rem;
+    
+   
     
 }
 button {
     appearance: auto;
-    writing-mode: horizontal-tb !important;
+    
     
     text-rendering: auto;
     
@@ -460,9 +450,8 @@ element.style {
     justify-content: center;
     border-radius: 0.5rem;
     cursor:pointer;
-    
-    width:155px;
-    height:40px;
+    font-size: large;
+    padding:0.5em 1rem;
 
 }
 #label{
@@ -635,3 +624,4 @@ element.style {
     margin:0.5rem;
   }
 }
+
